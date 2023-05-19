@@ -545,6 +545,9 @@ body {
     overflow: auto;
 }
 
+.overlay {
+    transform: translate(0px, 100%);
+}
 
 .nm-container {
     margin-bottom: 8px;
