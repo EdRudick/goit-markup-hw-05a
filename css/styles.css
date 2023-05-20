@@ -546,16 +546,24 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(46, 47, 66, 0.7);
-    padding: 15px;
+    background-color: var(--btn-color);
+    padding: 32px 40px;
     color: var(--primary-white-color);
     width: 100%;
     height: 100%;
     overflow: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--team-background-color);
+    transform: translate(0px, 100%);
+    transition: transform var(--transition-duration-and-func);
 }
 
-.overlay {
-    transform: translate(0px, 100%);
+.porto-container-img:hover .overlay,
+.porto-container-img:focus .overlay {
+    transform: translateY(0%);
 }
 
 .nm-container {
