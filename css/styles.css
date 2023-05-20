@@ -661,7 +661,7 @@ body {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.is-hideen {
+.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
