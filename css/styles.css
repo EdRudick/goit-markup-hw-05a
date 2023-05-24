@@ -102,15 +102,11 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-
-}
-
-.menu-item:hover,
-.menu-item:focus {
-    color: var(--accent-color);
 }
 
 .menu-item {
+    display: block;
+    padding: 24px 0;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -120,10 +116,9 @@ body {
     transition: color var(--transition-duration-and-func);
 }
 
-.menu-item-container {
-    display: block;
-    padding: 24px 0;
-    color: var(--primary-text-color);
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--accent-color);
 }
 
 .current {
